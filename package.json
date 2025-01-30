@@ -1,0 +1,27 @@
+{
+  "name": "meduza-bus",
+  "version": "1.0.0",
+  "description": "A simple event bus implementation using Mitt in TypeScript for my project",
+  "main": "src/eventBus.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/eventBus.js"
+  },
+  "dependencies": {
+    "mitt": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShootingersNew/meduza-bus"
+  },
+  "keywords": [
+    "event-bus",
+    "mitt",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
