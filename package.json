@@ -1,6 +1,6 @@
 {
   "name": "meduza-bus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple event bus implementation using Mitt in TypeScript for my project",
   "main": "src/eventBus.ts",
   "scripts": {
