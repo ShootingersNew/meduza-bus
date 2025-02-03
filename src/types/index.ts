@@ -1,4 +1,4 @@
-import { TLocaleEvents } from "./locale";
+import type { TLocaleEvents } from "./locale";
 
 type TEvents = TLocaleEvents;
 
