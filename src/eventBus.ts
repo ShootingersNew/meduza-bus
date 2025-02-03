@@ -1,5 +1,5 @@
 import mitt from 'mitt';
-import type { TEmitter, TEvents } from './types/index';
+import type { TEventBus, TEvents } from './types/index';
 
-const eventBus:TEmitter = mitt<TEvents>();
+const eventBus:TEventBus = mitt<TEvents>();
 export default eventBus;
